@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valentine's Day</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Happy Valentine's Day ❤</h1>
+    </header>
+
+    <!-- Konten -->
+    <section class="card">
+        <h2>Buat cengengkuu</h2>
+        <p>
+            "Aloo sayang Happy Valentine day's yaa, semoga kamu bahagia terus yaa dan dikelilingin orang" yang sayang sama kamuu."
+        </p>
+        
+        <button onclick="showLove()">Klik untuk Kejutan!</button>
+        <p id="loveMessage" class="hidden">I Love U Sayang, Babaiii💖</p>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy;Dika</p>
+    </footer>
+
+    <!-- JavaScript -->
+    <script>
+        function showLove() {
+            document.getElementById("loveMessage").classList.toggle("hidden");
+        }
+    </script>
+
+</body>
+</html>
